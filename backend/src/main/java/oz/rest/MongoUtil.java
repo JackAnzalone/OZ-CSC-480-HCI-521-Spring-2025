@@ -15,8 +15,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ApplicationScoped
 public class MongoUtil {
-    private static final String CONNECTION_STRING = "mongodb+srv://database_admin:pXzO2cMkmk7LXVCH@csc480cluster.ldmco.mongodb.net/";
-    private static final String DATABASE_NAME = "Data";
+    private static final String CONNECTION_STRING = "";
+    private static final String DATABASE_NAME = "";
     private static MongoClient mongoClient;
     private static MongoDatabase database;
 
